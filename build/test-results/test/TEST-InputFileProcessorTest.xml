@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="InputFileProcessorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-12-21T16:22:09" hostname="DESKTOP-T9V1KFC" time="0.008">
-  <properties/>
-  <testcase name="processCards()" classname="InputFileProcessorTest" time="0.005"/>
-  <testcase name="processItems()" classname="InputFileProcessorTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
