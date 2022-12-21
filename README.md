@@ -13,4 +13,4 @@
 <br> 1,14.99,Apple,false
 <br> 2,7.55,Banana,true
 <br> 3,6.00,Orange,true
-<br>Итоговый чек находится в файле check.txt. Его пример и примеры файлов cards.txt и items.txt находятся в репозитории
+<br>Итоговый чек находится в файле check.txt. Его пример и примеры файлов cards.txt и items.txt находятся в папке FileExamples
