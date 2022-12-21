@@ -67,8 +67,8 @@ public class InputDataProcessor {
             int quantity = 0;
             for (String argument : args) {
                 try {
-                    id = Integer.parseInt(argument.split("-")[0]);
-                    quantity = Integer.parseInt(argument.split("-")[1]);
+                    id = Integer.parseInt(argument.split("-")[0].trim());
+                    quantity = Integer.parseInt(argument.split("-")[1].trim());
                     ProductInCart cartItem = new ProductInCart(lists.getItemById(id));
                     cartItem.setQuantity(quantity);
                     productsInCart.add(cartItem);
