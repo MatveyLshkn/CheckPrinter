@@ -1,0 +1,14 @@
+                CASH RECEIPT
+               Supermarket 123
+          12, Milkyway Galaxy/ Earth
+              Tel :123-456-7890
+Cashier #1520                     Date: 21/12/2022
+                                  Time: 19:35:38
+--------------------------------------------------
+Qty   Description                Price       Total
+4          Banana                $7,55      $30,20
+6           Apple               $14,99      $89,94
+3          Orange                $6,00      $18,00
+==================================================
+Discount: %30                               $41,44
+TOTAL                                       $96,70
