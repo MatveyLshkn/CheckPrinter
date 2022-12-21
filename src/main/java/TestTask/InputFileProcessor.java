@@ -39,7 +39,7 @@ public class InputFileProcessor {
         String line;
         scanner = new Scanner(cardsFile);
         while (scanner.hasNextLine()) {
-            line = scanner.nextLine();
+            line = scanner.nextLine().replace(" ","");
             lists.addCard(
                     cardCreator.cardName(line.split(",")[0])
                             .cardDiscount(Integer.parseInt(line.split(",")[1]))
@@ -58,7 +58,7 @@ public class InputFileProcessor {
         String[] params;
         scanner = new Scanner(itemsFile);
         while (scanner.hasNextLine()) {
-            params = scanner.nextLine().split(",");
+            params = scanner.nextLine().replace(" ","").split(",");
             lists.addItem(
                     itemCreator.itemId(Integer.parseInt(params[0]))
                             .itemPrice(Double.parseDouble(params[1]))
